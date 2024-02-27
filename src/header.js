@@ -13,9 +13,9 @@ function topSection() {
     mynametitle.innerHTML = "Tomosori Joseph Mayowa";
     mynametitle.classList.add('my-name');
 
-    topimage.appendChild(mynametitle)
-    topimage.appendChild(myimag)
     
+    topimage.appendChild(myimag)
+    topimage.appendChild(mynametitle)
     topcontent.appendChild(topimage)
 
     return topcontent;
